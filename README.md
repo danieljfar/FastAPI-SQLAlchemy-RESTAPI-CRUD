@@ -12,7 +12,7 @@
 1. Clone repo
 
     ```bash
-    $ git clone git@github.com:danieljfar/fastAPI.git
+    $ git clone git@github.com:danieljfar/FastAPI-SQLAlchemy-RESTAPI-CRUD.git
     ```
 
 2. Install Project Requirements -
