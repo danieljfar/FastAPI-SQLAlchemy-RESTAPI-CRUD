@@ -31,3 +31,7 @@
     ```
       http://localhost:8000/
     ```
+  - b. swagger doc:
+    ```
+  http://localhost:8000/docs
+    ```
