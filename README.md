@@ -3,10 +3,13 @@
 ## Technologies
 - Backend:
     - FastAPI
+- Database:
+    - MySql
 
 ## Requirements
 - [Git](http://git-scm.com/)
 - [Python](http://www.python.org/)
+- [MySql](https://www.mysql.com/)
 
 ## Setup
 1. Clone repo
