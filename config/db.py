@@ -1,7 +1,14 @@
 from venv import create
 from sqlalchemy import create_engine, MetaData
 
-engine = create_engine("mysql+pymysql://root:siclo2112@localhost:3306/storedb")
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+DATABASE_URL = os.getenv('DATABASE_URL')
+
+engine = create_engine(DATABASE_URL)
 metadata = MetaData()
 
 conn = engine.connect()
